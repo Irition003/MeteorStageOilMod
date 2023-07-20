@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "meteorstageoilmod",
+  "version": "${version}",
+  "name": "MeteorStageOilMod",
+  "description": "This is an oil mod.",
+  "authors": [
+    "MeteorStage"
+  ],
+  "contact": {
+    "website": "void",
+    "repo": "void"
+  },
+  "license": "MIT",
+  "icon": "assets/MeteorStageOilMod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.meteorstage.meteorstageoilmod.client.MeteorStageOilModClient"
+    ],
+    "main": [
+      "org.meteorstage.meteorstageoilmod.MeteorStageOilMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
